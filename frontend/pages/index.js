@@ -1,3 +1,3 @@
 const Home = () => <p>Hey</p>
 
-export default Home
+export default Home;
