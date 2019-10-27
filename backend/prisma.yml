@@ -4,3 +4,6 @@ datamodel: datamodel.prisma
 generate:
   - generator: graphql-schema
     output: ./src/generated
+hooks:
+  post-deploy:
+    - prisma generate
